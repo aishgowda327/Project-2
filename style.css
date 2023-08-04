@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:white;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+
+#main{
+    width:100%;
+    /* height:auto; */
+    background-color:black;
+}
+#hero{
+    width:100%;
+    height:100vh;
+    background-color:black;
+}
+#nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+    padding:20px 40px;
+}
+#nav a {
+    font-size:18px;
+}
+#heading{
+    margin-top:90px;
+}
+#heading h1{
+    margin-left:40px;
+    opacity:.6;
+  font-size:8vw;
+  text-transform:uppercase;
+  line-height:1;
+  font-weight:550;
+
+}
+
+#heading #secondh1{
+    margin-left:200px;
+}
+.blocktext{
+    width:fit-content;
+    /* background-color:red; */
+}
+.blocktext h5{
+    text-align:right;
+    font-size:17px;
+ text-transform:uppercase;
+}
+
+#smallheadings{
+    margin-top:80px;
+    margin-right:45px;
+}
+#smallheadings h5{
+    text-align:right;
+    text-transform:uppercase;
+    margin-top:.5vw;
+    font-size:1vw;
+}
+#herofooter{
+    padding:0 2vw;
+    width:100%;
+    position:absolute;
+    bottom:3%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+#herofooter a {
+    text-transform:uppercase;
+    text-decoration:none;
+}
+#herofooter #iconset{
+    display:flex;
+    gap:5px;
+}
+#herofooter .circle {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    background-color:grey;
+    width:25px;
+    height:25px;
+}
+#second {
+    padding-top:200px;
+    padding-right:7vw;
+    padding-left:2vw;
+    width:100%;
+    height:100vh;
+}
+.elem {
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+    border-top:1px solid grey;
+}
+.elem h6{
+    font-size:1vw;
+ }  
+
+.elem h4{
+    padding:2.5vw 1vw;
+    font-size:4.5vw;
+    text-transform:uppercase;
+    font-weight:500;
+    opacity:.7;
+}
+
+.elemlast{
+    border-bottom:1px solid grey;
+}
+.elem img{
+    height:100%;
+    z-index:999;
+    position:absolute;
+    /* opacity:0; */
+    display:none;/*images are there are hidden same for opacity but in display - none dont distrub the page*/
+}
+#about{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    padding:10vw 10vw;
+    padding-left:40vw;
+    width:100%;
+    background-color:black;
+}
+
+#about img{
+    width:200px;
+}
+#textabout {
+    width:25rem;
+}
+#textabout h5{
+    text-transform:uppercase;
+    opacity:.6;
+    margin-bottom:10px;
+
+}
+
+#textabout p{
+    line-height:1.5;
+    margin-bottom:30px;
+}
+#textabout a{
+    padding:12px 22px;
+    border:1px solid white;
+    border-radius: 100px;
+    text-decoration:none;
+    font-size:15px;
+}
+#subscribe{
+    padding:20px 30px;
+}
+#subscribe h5{
+    text-transform:uppercase;
+    opacity:.6;
+}
+#subscribe h3{
+    text-transform:uppercase;
+    font-size:14px;
+    margin-top:10px;
+}
+#footer{
+background-color:black;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:40px 30px;
+}
+#footerleft {
+    display:flex;
+    gap:20px;
+}
+#footer a{
+    text-transform:uppercase;
+    font-size:14px;
+    font-weight:500;
+    text-decoration:none;
+}
+
+#footerright {
+    display:flex;
+    gap:50px;
+    
+}
